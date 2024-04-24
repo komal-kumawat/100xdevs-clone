@@ -1,0 +1,169 @@
+body{
+    font-family: arial;
+    margin:0px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:70px;
+    /* background-color: aqua; */
+    border-bottom:3px solid rgb(245, 245, 245);
+    z-index: 2;
+    position:fixed;
+    background-color: white;
+}
+.image{
+    margin-left:20px;
+    width:60px;
+}
+.space{
+    width:780px;
+}
+.search{
+   display:flex;
+   justify-content:space-evenly;
+   align-items: center;
+   width:500px;
+   border-radius:30px;
+   border:none;
+   background-color:lightgray;
+}
+.search-bar{
+    height:40px;
+    width:100%;
+    font-size:1rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: lightgray;
+    background-color: rgb(211, 211, 211);
+    border:none;
+    
+}
+.search-icon{
+    width:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+    
+    
+}
+button{
+    background-color: rgb(0, 140, 255);
+    height:40px;
+    border:none;
+    padding:10px;
+    width: 85px;
+    border-radius:30px;
+    color:white;
+    margin:13px;
+    
+    /* right:2px; */
+}
+.right-nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right:10px;
+}
+
+ /* sidebar */
+ .sidebar{
+    margin-top:60px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction:column;
+    background-color: rgb(229, 241, 245);
+    padding:50px;
+    width:150px;
+    height:600px;
+    color:rgb(108, 105, 105);
+    font-weight:700;
+    font-size: 14px;
+    position: fixed;
+    z-index: 1;
+
+ }
+ .Home,.courses{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    /* justify-content: center; */
+ }
+ .fa-home,.fa-graduation-cap{
+    padding-right:10px;
+ }
+ .course,.home{
+    font-weight:550;
+ }
+ .main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-left:300px;
+    top:200px;
+    position:relative;
+    z-index: 0;
+ }
+ .harkirat-img{
+    width:1100px;
+    border-radius:50px;
+    margin-bottom:100px;
+    
+ }
+ .why{
+    display:flex;
+    justify-content: center;
+    margin-bottom:100px;
+    font-size:2rem;
+ }
+ .about-desc{
+    padding:10px;
+    width:1100px;
+    background-color:rgb(241, 217, 246);
+    margin-bottom:50px;
+    height:200px;
+    border-radius:30px;
+    font-size: large;
+ }
+ .engineer{
+    font-weight:600;
+ }
+ .footer{
+    padding:10px;
+    width:1100px;
+    height:200px;
+    border-radius:30px;
+    font-size: large;
+    background-color:rgb(220, 217, 245);
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center; */
+ }
+ .image1{
+    margin-top:20px;
+    
+    width:100px;
+    border-radius: 50px;
+ }
+ .quick-links{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .download{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+ }
+ .google-play-icon{
+    width:150px;
+    height:110px;
+    margin:0px;
+
+ }
