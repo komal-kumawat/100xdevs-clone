@@ -16,6 +16,7 @@ body{
 .image{
     margin-left:20px;
     width:60px;
+    cursor:pointer;
 }
 .space{
     width:780px;
@@ -26,7 +27,7 @@ body{
    align-items: center;
    width:500px;
    border-radius:30px;
-   border:none;
+   border:1px solid white;
    background-color:lightgray;
 }
 .search-bar{
@@ -37,7 +38,7 @@ body{
     border-bottom-left-radius: 30px;
     color: lightgray;
     background-color: rgb(211, 211, 211);
-    border:none;
+    border:1px;
     
 }
 .search-icon{
@@ -46,7 +47,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size:1.2rem;
-    
+    cursor: pointer;
     
 }
 button{
@@ -58,6 +59,7 @@ button{
     border-radius:30px;
     color:white;
     margin:13px;
+    cursor:pointer;
     
     /* right:2px; */
 }
@@ -90,6 +92,7 @@ button{
     flex-direction:row;
     align-items:center;
     /* justify-content: center; */
+    cursor: pointer;
  }
  .fa-home,.fa-graduation-cap{
     padding-right:10px;
